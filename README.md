@@ -1,3 +1,4 @@
+<pre>
 <!-- (*) Patch information: -->
 <!--     2012-01-22, __tb, support & modified background highlighting for EcmaScript Pages -->
 <!--     Development platform: Sublime Text 2 Beta, Build: 2165 -->
@@ -15,3 +16,4 @@
 <!--         Original embedded Ruby support might have got corrupted, untested after these changes. -->
 <!--     Contact information: balazstth at github and gmail -->
 <!-- / -->
+</pre>
