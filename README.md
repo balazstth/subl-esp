@@ -13,7 +13,7 @@
          3. Select Monokai ESP color scheme
          4. After opening an ESP file select View / Syntax / Open all with current extension as... / HTML
      Known issues:
-         Original embedded Ruby support might have got corrupted, untested after these changes.
+         Original embedded Ruby support might have got corrupted, untested after the changes.
      Contact information: balazstth at github and gmail
 </pre>
 ![Screenshot](https://github.com/balazstth/subl-esp/raw/master/subl-shot.png "Screenshot")
