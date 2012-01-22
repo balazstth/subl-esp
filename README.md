@@ -16,3 +16,4 @@
          Original embedded Ruby support might have got corrupted, untested after these changes.
      Contact information: balazstth at github and gmail
 </pre>
+![Screenshot](subl-shot.png "Screenshot")
