@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<!--
-(*) Patch information:
-    2012-01-22, __tb, support & modified background highlighting for EcmaScript Pages
-    Development platform: Sublime Text 2 Beta, Build: 2165
-    Used kuler for color harmonies: http://kuler.adobe.com/#create/fromacolor
-    Affected files:
-        ~/Library/Application Support/Sublime Text 2/Packages/HTML/HTML.tmLanguage
-        ~/Library/Application Support/Sublime Text 2/Packages/HTML/HTML.tmLanguage.original
-        ~/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Monokai ESP.tmTheme
-    Installation:
-        1. Copy/overwrite corresponding files
-        2. Restart Sublime Text 2
-        3. Select Monokai ESP color scheme
-        4. After opening an ESP file select View / Syntax / Open all with current extension as... / HTML
-    Known issues:
-        Original embedded Ruby support might have got corrupted, untested after the changes.
-    Contact information: balazstth at github and gmail
-/ -->
+<!-- (*) for patch information see README.md / -->
 <dict>
 	<key>name</key>
 	<string>Monokai</string>
@@ -400,7 +383,7 @@
 			</dict>
 		</dict>
 
-		<!-- (*) Server-side EcmaScript -->
+		<!-- (*) server-side EcmaScript -->
 		<dict>
 			<key>name</key>
 			<string>Embedded Source</string>
@@ -409,7 +392,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<!-- Base color: 272822 -->
+				<!-- base color: 272822 -->
 				<string>#33425B</string>
 				<key>fontStyle</key>
 				<string></string>
@@ -417,7 +400,7 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
-		<!-- (*) Client-side JavaScript -->
+		<!-- (*) client-side JavaScript -->
 		<dict>
 			<key>name</key>
 			<string>Embedded Source</string>
@@ -426,8 +409,25 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<!-- Base color: 272822 -->
+				<!-- base color: 272822 -->
 				<string>#33352D</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<!-- (*) client-side CSS, set back to normal -->
+		<dict>
+			<key>name</key>
+			<string>Embedded Source</string>
+			<key>scope</key>
+			<string>source.css</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<!-- base color: 272822 -->
+				<string>#272822</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>

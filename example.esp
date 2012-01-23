@@ -1,0 +1,19 @@
+<% 
+    // Embedded server-side EcmaScript
+    var value = 123;
+%>
+<html>
+    <head>
+        <script>
+            console.log("Client-side JavaScript");
+            console.log("value", ${value});
+        </script>
+    </head>
+    <body>
+        <% if (value) { %>
+            Some content
+        <% } %>
+        And this is a
+        selection
+    </body>
+</html>

@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<!--
-(*) Patch information:
-    2012-01-22, __tb, support & modified background highlighting for EcmaScript Pages
-    Development platform: Sublime Text 2 Beta, Build: 2165
-    Used kuler for color harmonies: http://kuler.adobe.com/#create/fromacolor
-    Affected files:
-        ~/Library/Application Support/Sublime Text 2/Packages/HTML/HTML.tmLanguage
-        ~/Library/Application Support/Sublime Text 2/Packages/HTML/HTML.tmLanguage.original
-        ~/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Monokai ESP.tmTheme
-    Installation:
-        1. Copy/overwrite corresponding files
-        2. Restart Sublime Text 2
-        3. Select Monokai ESP color scheme
-        4. After opening an ESP file select View / Syntax / Open all with current extension as... / HTML
-    Known issues:
-        Original embedded Ruby support might have got corrupted, untested after the changes.
-    Contact information: balazstth at github and gmail
-/ -->
+<!-- (*) for patch information see README.md / -->
 <dict>
 	<key>fileTypes</key>
 	<array>
+		<!-- (*)
 		<string>html</string>
 		<string>htm</string>
 		<string>shtml</string>
@@ -31,6 +15,7 @@
 		<string>tmpl</string>
 		<string>tpl</string>
 		<string>ctp</string>
+		/ -->
 		<!-- (*) -->
 		<string>esp</string>
 		<!-- / -->
@@ -58,7 +43,9 @@
 	<key>keyEquivalent</key>
 	<string>^~H</string>
 	<key>name</key>
-	<string>HTML</string>
+	<!-- (*) -->
+	<string>ESP</string>
+	<!-- / -->
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -1143,6 +1130,8 @@
 	<key>scopeName</key>
 	<string>text.html.basic</string>
 	<key>uuid</key>
-	<string>17994EC8-6B1D-11D9-AC3A-000D93589AF6</string>
+	<!-- (*) --> 
+	<string>45586850-db43-43ba-940a-c567465f4982</string>
+	<!-- / --> 
 </dict>
 </plist>
