@@ -1,7 +1,7 @@
 <pre style="font-size: 10px;">
 ESP (EcmaScript Pages) edit mode for Sublime Text 2 (and probably TextMate)
 
-v1.1, (c) 2012-01-24, __tb
+v1.2, (c) 2012-01-24, __tb
 Development platform: Sublime Text 2 Beta, Build: 2165
 
 Provides advaced background highlighting for server-side and client-side scripts.
