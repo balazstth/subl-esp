@@ -6,6 +6,7 @@ Development platform: Sublime Text 2 Beta, Build: 2165
 
 Provides advaced background highlighting for server-side and client-side scripts.
 Kuler was used to extend the Monokai color set (http://kuler.adobe.com/#create/fromacolor)
+This edit mode is based on the built-in ST2 HTML package.
     
 Installation:
     1. cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
