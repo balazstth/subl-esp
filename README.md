@@ -17,6 +17,7 @@ Installation:
        View -> Syntax -> Open all with current extension as... -> ESP
 
 TODO:
+    Toggle Comment for EcmaScript still uses #
     Highlighting for embedded server-side script in client-side JavaScript strings.
 
 Known issues:
