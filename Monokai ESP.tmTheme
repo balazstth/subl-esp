@@ -438,6 +438,8 @@
 
 	</array>
 	<key>uuid</key>
+	<!-- (*) -->
 	<string>6330035d-2f45-4440-99c6-b39eb184c653</string>
+	<!-- / -->
 </dict>
 </plist>
