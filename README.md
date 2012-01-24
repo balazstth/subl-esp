@@ -8,7 +8,12 @@ Provides advaced background highlighting for server-side and client-side scripts
 Kuler was used to extend the Monokai color set (http://kuler.adobe.com/#create/fromacolor)
     
 Installation:
-    TODO
+    1. cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+       # or corresponding folder on your operating system
+    2. git clone https://github.com/balazstth/subl-esp.git "ESP"
+    3. Sublime Text 2 -> Preferences -> Color Scheme -> ESP -> Monokai ESP
+    4. if not set automatically: after opening an ESP file
+       View -> Syntax -> Open all with current extension as... -> ESP
 
 TODO:
     Highlighting for embedded server-side script in client-side JavaScript strings.
