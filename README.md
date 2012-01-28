@@ -9,7 +9,9 @@ Kuler was used to extend the Monokai color set (http://kuler.adobe.com/#create/f
 This edit mode is based on the built-in ST2 HTML package.
     
 Installation:
-    Either: 
+    Either:
+    (0. if you do not have Package Control installed follow these instructions:
+    http://wbond.net/sublime_packages/package_control/installation)
     1. ⌘⇧P (or ^⇧P) to open Command Palette
     2. select Package Control: Install Package
     3. select ESP
