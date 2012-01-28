@@ -11,7 +11,7 @@ This edit mode is based on the built-in ST2 HTML package.
 Installation:
     Either:
     (0. if you do not have Package Control installed follow these instructions:
-    http://wbond.net/sublime_packages/package_control/installation)
+        http://wbond.net/sublime_packages/package_control/installation)
     1. ⌘⇧P (or ^⇧P) to open Command Palette
     2. select Package Control: Install Package
     3. select ESP
